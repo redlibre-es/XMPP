@@ -5,4 +5,4 @@ These are the configuration files used for our ejabberd installation that host r
 
 Feel free to contact us at info@redlibre.es for questions.
 
-https//www.redlibre.es 
+https://www.redlibre.es 
