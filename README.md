@@ -1,8 +1,8 @@
 # XMPP
-The redlibre.es XMPP service
+El servicio XMPP de redlibre.es
 
-These are the configuration files used for our ejabberd installation that host redlibre.es
+Estos son los archivos de configuración utilizados para nuestra instalación de ejabberd que alberga redlibre.es
 
-Feel free to contact us at info@redlibre.es for questions.
+No dude en ponerse en contacto con nosotros en info@redlibre.es para preguntas.
 
-https://www.redlibre.es 
+https://www.redlibre.es
