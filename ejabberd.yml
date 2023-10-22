@@ -42,14 +42,12 @@ listen:
     max_stanza_size: 262144
     shaper: c2s_shaper
     access: c2s
-    starttls_required: true
   -
     port: 5269
     ip: "::"
     module: ejabberd_s2s_in
     shaper: s2s_shaper
     max_stanza_size: 524288
-    
   -
     port: 5443
     ip: "::"
@@ -117,18 +115,13 @@ max_fsm_queue: 20000
 acl:
   admin:
     user:
-      - "info@redlibre.es"
-      - "bots@redlibre.es"
+      - "redlibre@redlibre.es"
   paying_customers:
     server: "redlibre.es"
   blocked:
     user:
       - "redlibre.es"
       - "admin"
-  bad_servers:
-    server:
-      - "bashtel.ru"
-      - "creep.im"
   local: 
     user_regexp: ""
   loopback:
@@ -288,7 +281,6 @@ modules:
     resend_on_timeout: if_offline
   mod_s2s_dialback: {}
   mod_shared_roster: {}
-  mod_http_api: {}
   mod_block_strangers: {}
   mod_sic: {}
   mod_fail2ban: {}
